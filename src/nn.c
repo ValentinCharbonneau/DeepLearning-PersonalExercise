@@ -68,7 +68,7 @@ void trainNeuralNetwork(NeuralNetwork* nn, double** inputs, double** targets) {
         for (int j = 0; j < nn->outputNodes; j++) {
             error += (targets[nn->trainingSet-1][j] - nn->outputLayer[j]) * sigmoidDerivative(nn->outputLayer[j]);
         }
-        printf("Loss: %g\n", error);
+        printf("Cost: %g\n", error);
     }
 
     free(trainingSetOrder);
