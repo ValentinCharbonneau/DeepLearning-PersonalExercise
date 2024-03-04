@@ -1,21 +1,21 @@
 # Personal deep learning exercise
 
 ## Description
-This is a personnal exercise in the order to understand how perceptron network and gradient backpropagation work.
+This is a personal exercise aimed at understanding how perceptron networks and gradient backpropagation work.
 
 ## Technical
-GCC compiler avec Make are recommended to compile this project with the Makefile.
-This project respect the C99 standard.
-THis project use the *math.h* library, so the argument *-lm* are require with GCC
+The GCC compiler with Make is recommended to compile this project with the Makefile.
+This project adheres to the C99 standard.
+This project uses the *math.h* library, so the argument *-lm* is required with GCC.
 
 ## Networks
-The program asks you to choose one of 3 models :
+The program asks you to choose one of 3 models:
  - 1 - A simple XOR model
- - 2 - A more complexe model, gives the probability that the entry belongs to a class
- - 3 - A model with 2 outputs, gives the class to which the entry belongs
+ - 2 - A more complex model that gives the probability that the input belongs to a certain class
+ - 3 - A model with 2 outputs that determines the class to which the input belongs
 
 ## Author
 Valentin Charbonneau
 
 ## Licence
-View the LICENCE file
+View the LICENSE file
